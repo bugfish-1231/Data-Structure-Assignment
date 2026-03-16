@@ -1,0 +1,25 @@
+empty 
+push 77 
+top 
+pop 
+empty 
+push 10
+push 20 
+push 30 
+push 40 
+push 50 
+pop 
+pop 
+top 
+push 60 
+push 70 
+top 
+pop 
+pop 
+pop 
+empty 
+pop 
+top 
+pop 
+empty 
+exit
