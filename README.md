@@ -4,11 +4,11 @@ CS203A home assignment
 # 資料結構作業一：佇列模擬堆疊 (Queue-to-Stack Simulation)
 
 ## 1. 題目要求
-**目標**：使用兩個佇列 (Queue) 實作堆疊 (Stack) 功能。
-**限制**：禁止使用 C++ STL 等標準函式庫 。
-**功能**：需包含 `push`, `pop`, `top`, `empty` 等操作 。
-**輸入**：讀取 `hw1_input.txt` 檔案。
-**輸出**：標準輸出 (Standard Output)。
+- **目標**：使用兩個佇列 (Queue) 實作堆疊 (Stack) 功能。
+- **限制**：禁止使用 C++ STL 等標準函式庫 。
+- **功能**：需包含 `push`, `pop`, `top`, `empty` 等操作 。
+- **輸入**：讀取 `hw1_input.txt` 檔案。
+- **輸出**：標準輸出 (Standard Output)。
 
 ## 2. 演算法設計
 本實作採用 **Push** 策略，確保 Stack 的 Top 元素始終位於主佇列的隊首。
@@ -44,6 +44,7 @@ CS203A home assignment
 |   exit  |   |
 
 - TEST2
+
 | 指令 (hw1_input.txt) | 預期標準輸出 |
 | :--: | :--: |
 |  empty  | T |
