@@ -80,7 +80,7 @@ public:
         // 新元素放入空的 q2
         q2->enqueue(x);
 
-        // 將 q1 的所有元素移到 q2，確保新元素在最前面
+        // 將 q1 的所有元素移到 q2 確保新元素在最前面
         while (!q1->isEmpty()) {
             q2->enqueue(q1->dequeue());
         }
@@ -112,7 +112,7 @@ public:
 
 int main() {
     Stack myStack;
-    ifstream inputFile("hw1_input3.txt");              // hw1_input2.txt hw1_input3.txt 
+    ifstream inputFile("hw1_input.txt");              // hw1_input2.txt hw1_input3.txt 
 
     if (!inputFile.is_open()) {
         cout << "無法開啟檔案 hw1_input.txt" << endl;
@@ -144,7 +144,12 @@ int main() {
             }
         } 
         else if (command == "exit") {
-            break;
+
+            cout << endl;
+
+            while (!myStack.empty()) {
+                myStack.pop();
+            }
         }
     }
 
