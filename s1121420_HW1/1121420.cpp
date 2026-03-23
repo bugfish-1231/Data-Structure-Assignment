@@ -112,7 +112,7 @@ public:
 
 int main() {
     Stack myStack;
-    ifstream inputFile("hw1_input.txt");              // hw1_input2.txt hw1_input3.txt 
+    ifstream inputFile("hw1_input.txt");        
 
     if (!inputFile.is_open()) {
         cout << "無法開啟檔案 hw1_input.txt" << endl;
